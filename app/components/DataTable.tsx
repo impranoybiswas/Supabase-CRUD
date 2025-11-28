@@ -14,9 +14,9 @@ export default function DataTable({
 }) {
   return (
     <div className="overflow-x-auto">
-      <table className="w-full border rounded overflow-hidden shadow">
+      <table className="w-full border rounded-md overflow-hidden shadow">
         <thead>
-          <tr className="border-b border-gray-400 bg-gray-100">
+          <tr className="border border-slate-300 bg-slate-100 shadow">
             <th>ID</th>
             <th>Full Name</th>
             <th>Email</th>
